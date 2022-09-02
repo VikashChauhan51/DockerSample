@@ -5,10 +5,16 @@ Sample Dotnet 6 Core API app with docker.
 - Git should be installed.
 - Visual Studio should be installed.
 
-## Publish in Docker
-- Open `src` folder in terminal.
-- Execute `dotnet restore' command.
-- Execute `dotnet build' command.
-- Publish code by executing the command `dotnet publish -c Debug -o publish'.
-- Create docker build with by executing the command `docker build -t vikashchauhan51/sample-api:1.0.0 -f Dockerfile .`.
-- Deploy in docker `docker run -d -p 8080:8080 vikashchauhan51/sample-api:1.0.0`.
+## Steps
+- Run docker desktop on you system.
+- Build project and run it with `docker` profile from Visual Studio.
+
+## Project Structure
+
+```
+C:/DockerSample
+└───src
+    └───SampleAPI
+        ├───Controllers
+        └───Properties
+```
